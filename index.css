@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Rubik+Beastly&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+#header {
+    background-color: #43799c;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.header-container h1 {
+    font-size: 35px;
+    margin-bottom: 6px;
+}
+
+.header-container h2 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.actions {
+    background-color: #F7F7F7;
+    padding: 10px 0;
+    border-bottom: 1px solid #dedfe0;
+}
+
+.actions_container {
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 1px solid #DEDFE0;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px 7px;
+}
+
+select {
+    border-radius: 0;
+    border: 1px solid #DEDFE0;
+    font-size: 16px;
+    height: 40px;
+    padding: 5px 7px;
+}
+
+.note_section {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.no_note {
+    text-align: center;
+    margin: 30px 0px;
+    color: #333;
+    font-size: 16px;
+}
+
+.create_note {
+    text-decoration: none;
+    background: #43799c;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    transition: background .3s ease;
+}
+
+.create_note:hover{
+    background: #396684;
+}
+
+.edit-page-action-items {
+    font-size: 16px;
+}
+
+a.edit-page-action-items {
+    color: #396684
+}
+
+.form-container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.form-container input{
+    border: 1px solid #DEDFE0;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    margin: 20px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+.form-container textarea{
+    display: block;
+    border: 1px solid #DEDFE0;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0;
+    min-height: 180px;
+    padding: 8px;
+    width: 100%;
+}
+
+.form-container button{ 
+    background: #888888;
+    border: none;
+    border-bottom: 2px solid #717171;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    transition: background .3s ease;
+}
+
+.form-container button:hover{ 
+    background: #6E6E6E;
+}
+
+.note_item {
+    
+}
