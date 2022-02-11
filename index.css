@@ -135,6 +135,29 @@ a.edit-page-action-items {
     background: #6E6E6E;
 }
 
-.note_item {
-    
+.note-item {
+    text-decoration: none;
+    color: #333;
+    background: #F7F7F7;
+    border: 1PX solid #DEDFE0;
+    margin: 16px 0;
+    padding: 16px;
+    display: block;
+    transition: background 0.3s ease;
+}
+
+.note-item:hover{
+    background: #eee;
+}
+
+.note-item p:nth-child(1) {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.note-item p:nth-last-child(1) {
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
 }
