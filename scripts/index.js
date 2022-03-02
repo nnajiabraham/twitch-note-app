@@ -112,6 +112,7 @@ const filterNotesHandler = (event) =>{
 const rightClickEventHandler = (e) => {
   filterNoteSearchBar.value = '';
   e.preventDefault()
+  renderNotes(noteListData)
 }
 
 filterNoteSearchBar.addEventListener('input', filterNotesHandler)
